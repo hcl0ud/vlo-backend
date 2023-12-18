@@ -1,5 +1,4 @@
-import dotenv from 'dotenv';
-dotenv.config();
+require('dotenv').config();
 
 const Koa = require('koa');
 const cors = require('@koa/cors');
